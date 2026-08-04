@@ -322,8 +322,8 @@ header {
     box-shadow: 0 4px 16px rgba(245, 158, 11, 0.1);
     border: 1px solid #fde68a;
 }
-.video-wrapper { position: relative; }
-.ads-video { width: 100%; height: auto; display: block; cursor: pointer; }
+.video-wrapper { position: relative; width: 100%; aspect-ratio: 9/16; }
+.ads-video { width: 100%; height: 100%; display: block; cursor: pointer; object-fit: cover; position: absolute; top: 0; left: 0; }
 .video-mute-btn {
     position: absolute; bottom: 8px; right: 8px;
     width: 28px; height: 28px; background: rgba(0,0,0,0.5);
